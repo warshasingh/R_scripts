@@ -7,7 +7,7 @@ registerDoParallel(cores=8)
 
 library(EBImage)
 
-frames <- list.files(path="~/Dropbox/git/test_photos", pattern=".jpg")
+frames <- list.files(path="~/test_photos", pattern=".jpg")
 
 GREYFN <- function(i) {
   
