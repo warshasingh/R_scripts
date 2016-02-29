@@ -3,7 +3,7 @@
 
 library(foreign)
 library(EBImage)
-setwd("~/Dropbox/git/test_photos")
+setwd("~/test_photos")
 a <- list.files()
 a
 
