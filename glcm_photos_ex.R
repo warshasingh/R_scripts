@@ -10,9 +10,9 @@ library(glcm)
 library(raster)
 #library(rgdal)
 
-setwd("~/Dropbox/git/test_photos")
+setwd("~/test_photos")
 
-frames <- list.files(path="~/Dropbox/git/test_photos", pattern="gray")
+frames <- list.files(path="~/test_photos", pattern="gray")
 
 GLCMFN <- function(i) {
   
